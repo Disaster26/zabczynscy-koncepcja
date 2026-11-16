@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Piekarnia Żabczyńscy - chleb, bułki, ciasta i torty | sklepy firmowe Łaskarzew, Garwolin, Łuków</title>
+<meta name="description" content="Rodzinna piekarnia i cukiernia Żabczyńscy z Łaskarzewa. Chleb na kwasie naturalnym, bułki, ciasta i torty w sklepach firmowych w Łaskarzewie, Garwolinie, Łukowie, Rykach, Międzyrzecu i Radzyniu Podlaskim.">
+<meta name="theme-color" content="#4C1B0C">
+<link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+<link rel="preload" as="image" href="img/hero-m-480.webp" imagesrcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" imagesizes="100vw" media="(max-width:760px)" fetchpriority="high">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" imagesizes="100vw" media="(min-width:761px)" fetchpriority="high">
+<link rel="preload" as="font" type="font/woff2" href="fonts/jost.woff2" crossorigin>
+<style>
+@font-face{font-family:"Jost";font-weight:400 700;font-display:swap;src:url(fonts/jost.woff2) format("woff2")}
+@font-face{font-family:"Jost-fb";src:local("Arial");size-adjust:95%;ascent-override:112%;descent-override:39%;line-gap-override:0%}
+:root{--br:#4C1B0C;--br2:#6A2A16;--brd:#33110A;--zl:#D79A2B;--t:#1E1714;--s:#5B5450;--g:#F2F3F5;--l:#DCDEE2;--hh:72px;--gut:clamp(16px,3.4vw,60px);--w:1320px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:var(--hh);-webkit-text-size-adjust:100%}
+body{margin:0;font-family:"Jost","Jost-fb",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:18px;line-height:1.6;color:var(--t);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{margin:0;line-height:1.08;font-weight:600;letter-spacing:-.01em}
+h1{font-size:clamp(40px,5.2vw,88px);font-weight:600}
+h2{font-size:clamp(34px,3.7vw,58px)}
+h3{font-size:22px;line-height:1.2;font-weight:600}
+p{margin:0}
+.wrap{width:min(var(--w),100% - 2*var(--gut));margin-inline:auto}
+.btn{display:inline-flex;align-items:center;gap:12px;background:var(--br);color:#fff;font:600 18px/1.2 inherit;font-family:inherit;text-decoration:none;padding:18px 26px;border-radius:4px;border:0;cursor:pointer;transition:background .2s,transform .15s}
+.btn:hover{background:var(--br2)}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:20px;height:20px;flex:none}
+.btn.jas{background:#fff;color:var(--br)}
+.btn.jas:hover{background:#F6EDE6}
+
+/* naglowek */
+.top{position:sticky;top:0;z-index:60;height:var(--hh);background:#fff;border-bottom:1px solid transparent;transition:border-color .2s,box-shadow .2s}
+.top.sc{border-bottom-color:var(--l);box-shadow:0 8px 28px rgba(40,15,5,.07)}
+.top .wrap{height:100%;display:flex;align-items:center;gap:26px}
+.logo{display:block;color:var(--br);line-height:0;flex:none}
+.logo svg{height:44px;width:auto}
+.menu{display:flex;gap:2px;margin-left:auto}
+.menu a{text-decoration:none;font-weight:500;font-size:17px;padding:10px 14px;border-radius:4px;color:var(--t)}
+.menu a:hover{background:var(--g)}
+.menu a.on{color:var(--br);box-shadow:inset 0 -2px 0 var(--zl)}
+.top .tel{display:inline-flex;align-items:center;gap:9px;text-decoration:none;font-weight:600;font-size:17px;color:#fff;background:var(--br);padding:11px 16px;border-radius:4px;white-space:nowrap}
+.top .tel:hover{background:var(--br2)}
+.top .tel svg{width:17px;height:17px}
+.burger{display:none;margin-left:auto;width:46px;height:46px;border:1px solid var(--l);background:#fff;border-radius:4px;cursor:pointer;padding:0;align-items:center;justify-content:center}
+.burger i{display:block;width:20px;height:2px;background:var(--t);position:relative;transition:background .2s}
+.burger i:before,.burger i:after{content:"";position:absolute;left:0;width:20px;height:2px;background:var(--t);transition:transform .25s}
+.burger i:before{top:-6px}.burger i:after{top:6px}
+.top.open .burger i{background:transparent}
+.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}
+.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+
+/* pierwszy ekran */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:#2b1a12;overflow:hidden;isolation:isolate}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;z-index:-2}
+.hero picture img{object-fit:cover;object-position:50% 45%}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(28,10,4,.86) 0%,rgba(28,10,4,.62) 38%,rgba(28,10,4,.08) 72%),linear-gradient(0deg,rgba(28,10,4,.55) 0%,rgba(28,10,4,0) 45%)}
+.hero-in{padding:clamp(40px,7vh,96px) 0 calc(clamp(56px,10vh,120px) + 3vw)}
+.hero h1{max-width:12.5em;text-wrap:balance}
+.hero .lead{max-width:34em;font-size:clamp(18px,1.35vw,22px);line-height:1.55;margin-top:22px;color:rgba(255,255,255,.92)}
+.hero .cta{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px;margin-top:34px}
+.hero .cta .adr{font-size:16px;color:rgba(255,255,255,.85)}
+/* luk z tarczy jako dolna krawedz */
+.luk{position:absolute;left:0;right:0;bottom:-1px;height:3.4vw;min-height:22px;z-index:1;color:#fff;pointer-events:none}
+.luk svg{display:block;width:100%;height:100%}
+
+/* sekcje */
+.sek{padding:clamp(72px,9vw,132px) 0}
+.sek-g{background:var(--g)}
+.naglowek{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:18px 40px;margin-bottom:clamp(30px,3.6vw,52px)}
+.naglowek p{max-width:36em;color:var(--s);font-size:19px}
+
+/* wypieki - karuzela */
+.karuz{position:relative}
+.pas{display:grid;grid-auto-flow:column;grid-auto-columns:calc((100% - 3*22px)/4);gap:22px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;cursor:grab;padding-bottom:4px}
+.pas::-webkit-scrollbar{display:none}
+.pas.drag{cursor:grabbing;scroll-snap-type:none}
+.karta{scroll-snap-align:start;min-width:0}
+.karta button{all:unset;display:block;width:100%;cursor:zoom-in;border-radius:6px;overflow:hidden;position:relative;background:var(--g)}
+.karta button:focus-visible{outline:3px solid var(--zl);outline-offset:3px}
+.karta img{width:100%;aspect-ratio:4/5;object-fit:cover;transition:transform .5s cubic-bezier(.2,.7,.3,1)}
+.karta button:hover img{transform:scale(1.035)}
+.karta h3{margin-top:18px}
+.karta p{margin-top:6px;color:var(--s);font-size:16.5px;line-height:1.5}
+.strz{display:flex;gap:10px}
+.strz button{width:52px;height:52px;border-radius:50%;border:1px solid var(--l);background:#fff;cursor:pointer;display:grid;place-items:center;color:var(--br);transition:background .2s,border-color .2s,opacity .2s}
+.strz button:hover{border-color:var(--br)}
+.strz button:disabled{opacity:.35;cursor:default}
+.strz svg{width:20px;height:20px}
+
+/* tradycja - ciemna sekcja */
+.trad{background:var(--br);color:#fff;position:relative;overflow:hidden}
+.trad .wrap{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,6fr);gap:clamp(36px,6vw,110px);align-items:center}
+.trad-foto{position:relative}
+.trad-foto img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:220px 220px 6px 6px / 46px 46px 6px 6px}
+.trad h2{max-width:11em}
+.trad .txt>p{margin-top:22px;color:rgba(255,255,255,.86);font-size:19px;max-width:34em}
+.lata{list-style:none;margin:34px 0 0;padding:0;border-top:1px solid rgba(255,255,255,.18)}
+.lata li{display:grid;grid-template-columns:5.2em minmax(0,1fr);gap:18px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.18);font-size:17.5px;line-height:1.5;color:rgba(255,255,255,.9)}
+.lata b{font-weight:600;color:var(--zl);font-size:20px;line-height:1.3}
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:30px;max-width:520px}
+.duo img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:6px}
+
+/* sklepy */
+.filtry{display:flex;flex-wrap:wrap;gap:8px;overflow-x:auto;scrollbar-width:none;padding:2px 2px 6px;margin:0 0 22px}
+.filtry::-webkit-scrollbar{display:none}
+.filtry button{flex:none;font:500 16px/1 inherit;font-family:inherit;padding:12px 16px;border-radius:4px;border:1px solid var(--l);background:#fff;color:var(--t);cursor:pointer;white-space:nowrap;transition:border-color .2s,background .2s}
+.filtry button span{color:var(--s);margin-left:6px;font-weight:400}
+.filtry button:hover{border-color:var(--br)}
+.filtry button[aria-pressed="true"]{background:var(--br);border-color:var(--br);color:#fff}
+.filtry button[aria-pressed="true"] span{color:rgba(255,255,255,.75)}
+.sklepy{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:22px;align-items:start}
+.lista{list-style:none;margin:0;padding:0;max-height:620px;overflow-y:auto;border-radius:6px;background:#fff;border:1px solid var(--l);scrollbar-width:thin}
+.pkt{padding:18px 20px;border-bottom:1px solid var(--l);display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;align-items:center;cursor:pointer;transition:background .15s}
+.pkt:last-child{border-bottom:0}
+.wiecej{padding:14px}
+.wiecej button{width:100%;font:600 17px/1.2 inherit;font-family:inherit;padding:15px;border-radius:4px;border:1px solid var(--br);background:#fff;color:var(--br);cursor:pointer}
+.pkt:hover,.pkt.on{background:#FBF6F2}
+.pkt.on{box-shadow:inset 3px 0 0 var(--zl)}
+.pkt h3{font-size:19px;font-weight:600}
+.pkt .m{color:var(--s);font-size:16px;line-height:1.4}
+.pkt .brak{grid-column:1/-1;font-size:14.5px;color:#7A726D;line-height:1.4;margin-top:2px}
+.pkt .trasa{grid-row:1/3;grid-column:2;display:inline-flex;align-items:center;gap:7px;font-size:15.5px;font-weight:600;color:var(--br);text-decoration:none;padding:9px 12px;border:1px solid var(--l);border-radius:4px;background:#fff;white-space:nowrap}
+.pkt .trasa:hover{border-color:var(--br)}
+.pkt .trasa svg{width:15px;height:15px}
+.mapa{position:sticky;top:calc(var(--hh) + 16px);height:620px;border-radius:6px;overflow:hidden;background:#E6E8EB;border:1px solid var(--l)}
+.mapa .ph{position:absolute;inset:0;display:grid;place-items:center;color:var(--s);font-size:16px}
+.uwaga{margin-top:18px;font-size:15px;color:var(--s);max-width:60em}
+.centrala{display:flex;flex-wrap:wrap;gap:10px 28px;align-items:center;margin-top:26px;padding-top:22px;border-top:1px solid var(--l);font-size:17px}
+.centrala a{font-weight:600;color:var(--br);text-decoration:none}
+.pin{color:var(--br);filter:drop-shadow(0 2px 3px rgba(0,0,0,.35));transition:color .2s,transform .2s;transform-origin:50% 100%}
+.pin svg{display:block;width:100%;height:100%}
+.pin.on{color:var(--zl);transform:scale(1.25)}
+.leaflet-popup-content{font-family:"Jost",system-ui,sans-serif;font-size:15px;line-height:1.45;margin:12px 16px}
+.leaflet-popup-content b{font-size:16px}
+.leaflet-popup-content a{color:var(--br);font-weight:600}
+
+/* kontakt */
+.kont{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.kblok{padding:28px 26px;border:1px solid var(--l);border-radius:6px}
+.kblok h3{margin-bottom:14px}
+.kblok p{color:var(--s);font-size:17px;line-height:1.6}
+.kblok a{color:var(--br);font-weight:600;text-decoration:none}
+.kblok a:hover{text-decoration:underline}
+.kblok .duzy{display:block;font-size:24px;margin-top:10px;color:var(--t)}
+
+/* stopka */
+.stopka{background:var(--g);color:#4A4440;padding:56px 0 28px;font-size:16px}
+.stopka .wrap{display:grid;grid-template-columns:minmax(0,1.3fr) repeat(3,minmax(0,1fr));gap:32px}
+.stopka .logo svg{height:40px}
+.stopka h4{margin:0 0 10px;font-size:16px;font-weight:600;color:var(--t)}
+.stopka ul{list-style:none;margin:0;padding:0;line-height:1.9}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:var(--br)}
+.stopka .dol{grid-column:1/-1;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;padding-top:22px;border-top:1px solid var(--l);font-size:14.5px}
+.stopka details{grid-column:1/-1;font-size:13.5px;color:#6A625D}
+.stopka summary{cursor:pointer}
+.stopka details p{margin-top:8px;line-height:1.6}
+
+/* pasek dolny tel */
+.mob{display:none}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:100;background:rgba(20,8,3,.92);display:none;align-items:center;justify-content:center;padding:16px}
+.lb.on{display:flex}
+.lb img{max-width:min(1100px,100%);max-height:86svh;width:auto;height:auto;border-radius:4px}
+.lb button{position:absolute;top:14px;right:14px;width:50px;height:50px;border-radius:50%;border:0;background:#fff;color:var(--br);font-size:28px;line-height:1;cursor:pointer}
+.lb p{position:absolute;bottom:16px;left:16px;right:16px;text-align:center;color:#fff;font-size:16px}
+
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+@media (max-width:1180px){.pas{grid-auto-columns:calc((100% - 2*22px)/3)}.kont{grid-template-columns:1fr 1fr}.stopka .wrap{grid-template-columns:1fr 1fr}}
+@media (max-height:820px) and (min-width:761px){h1{font-size:clamp(40px,4.4vw,72px)}.hero-in{padding-top:36px}.hero .lead{margin-top:16px}.hero .cta{margin-top:26px}}
+@media (max-width:960px){
+  .menu,.top .tel{display:none}
+  .burger{display:inline-flex}
+  .top.open .menu{display:flex;flex-direction:column;position:absolute;top:var(--hh);left:0;right:0;background:#fff;padding:10px var(--gut) 22px;border-bottom:1px solid var(--l);box-shadow:0 18px 30px rgba(40,15,5,.1);gap:0}
+  .top.open .menu a{font-size:20px;padding:14px 4px;border-bottom:1px solid var(--g);border-radius:0}
+  .top.open .menu a.on{box-shadow:none}
+  .top.open .menu .mtel{display:flex}
+  .trad .wrap{grid-template-columns:1fr}
+  .trad-foto{max-width:520px}
+  .sklepy{grid-template-columns:1fr}
+  .mapa{position:relative;top:auto;height:360px;order:-1}
+  .filtry{flex-wrap:nowrap;margin-inline:calc(-1*var(--gut));padding-inline:var(--gut)}
+  .lista{max-height:none}
+}
+.menu .mtel svg{width:18px;height:18px;flex:none}
+.menu .mtel{display:none;align-items:center;margin-top:14px;justify-content:center;gap:10px;background:var(--br);color:#fff!important;border-radius:4px!important;font-weight:600;border:0!important}
+@media (max-width:760px){
+  :root{--hh:64px}
+  body{font-size:17px}
+  .logo svg{height:36px}
+  .hero picture img{object-position:30% 50%}
+  .hero:before{background:linear-gradient(0deg,rgba(28,10,4,.92) 0%,rgba(28,10,4,.74) 45%,rgba(28,10,4,.18) 78%,rgba(28,10,4,.1) 100%)}
+  .hero h1{font-size:clamp(34px,10vw,46px)}
+  .hero .lead{font-size:17px;margin-top:16px}
+  .hero .cta{margin-top:26px}
+  .hero .cta .btn{width:100%;justify-content:center}
+  .hero-in{padding:24px 0 calc(34px + 6vw)}
+  .luk{height:6vw}
+  .pas{grid-auto-columns:78%;gap:14px}
+  .strz{display:none}
+  .naglowek p{font-size:17px}
+  .lata li{grid-template-columns:4.2em minmax(0,1fr);font-size:16.5px}
+  .kont{grid-template-columns:1fr}
+  .trad-foto img{aspect-ratio:4/3}
+  .pkt{padding:16px}
+  .stopka .wrap{grid-template-columns:1fr 1fr;gap:26px 18px}
+  .stopka .f1{grid-column:1/-1}
+  .mob{position:fixed;left:0;right:0;bottom:0;z-index:55;display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:8px 12px calc(8px + env(safe-area-inset-bottom));background:#fff;border-top:1px solid var(--l);transform:translateY(110%);transition:transform .25s}
+  .mob.widac{transform:none}
+  .mob a{display:flex;align-items:center;justify-content:center;gap:8px;padding:13px 10px;border-radius:4px;font-weight:600;font-size:16px;text-decoration:none;background:var(--br);color:#fff}
+  .mob a+a{background:#fff;color:var(--br);border:1px solid var(--br)}
+  .mob svg{width:17px;height:17px}
+}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Żabczyńscy - piekarnia, cukiernia - strona główna"><svg role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780.9 140.3" fill="currentColor"><path d="M112.7,17.9v-6.3c-18.2-4.5-36.9-6.8-56-6.8c-18.8,0-37.5,2.4-56,6.8v6.5c18.2-4.5,36.9-6.8,56-6.8 C75.7,11,94.5,13.4,112.7,17.9"/><path d="M106.1,40.5c-4.2-0.6-8.3-0.9-12.5-0.9c-11.9,0-23.2,2.7-33.6,7.7c-3.3-1.8-6.5-3.6-9.8-5.1 c12.5-9.5,27.7-14.9,43.8-14.9c4.2,0,8.3,0.3,12.5,1.2v11.9H106.1z M74.8,59c-1.2-1.2-2.4-2.4-3.6-3.3l10.1-3v-3.3l-13.1,3.9 c-1.8-1.5-3.6-2.7-5.4-3.9c9.5-4.2,19.9-6.5,30.7-6.5c3.6,0,7.1,0.3,10.4,0.9C95.7,50.9,85.6,56,74.8,59 M106.1,75.9 c-4.2-0.6-8.3-0.9-12.5-0.9c-11.9,0-23.2,2.7-33.6,7.7c-3.3-1.8-6.5-3.6-9.8-5.1c12.5-9.5,27.7-14.9,43.8-14.9 c4.2,0,8.3,0.3,12.5,1.2v11.9H106.1z M74.8,94.4c-1.2-1.2-2.4-2.4-3.6-3.3l10.1-3v-3.3l-13.1,3.9c-1.8-1.5-3.6-2.7-5.4-3.9 c9.5-4.2,19.9-6.5,30.7-6.5c3.6,0,7.1,0.3,10.4,0.9C95.7,86.3,85.6,91.4,74.8,94.4 M106.1,111.3c-4.2-0.6-8.3-0.9-12.5-0.9 c-18.2,0-35.7,6.3-49.4,17.9v-10.4c13.4-12.8,31.3-19.6,49.7-19.6c4.2,0,8.3,0.3,12.5,1.2v11.9H106.1z M56.4,131.9 c-1.5,0-3,0-4.8,0l29.5-8.6V120l-34.5,10.1c13.1-10.7,29.5-16.7,46.7-16.7c3.6,0,7.1,0.3,10.4,0.9 C90.9,125.6,74.3,131.9,56.4,131.9 M8.8,93.5c3.6-0.6,7.1-0.9,10.4-0.9c12.8,0,25,3.3,36,9.2c-1.5,0.9-3.3,1.8-4.8,3l-19-5.4v3.3 l15.8,4.5c-1.2,0.9-2.7,2.1-3.9,3C30.8,107.8,18.9,102.1,8.8,93.5 M6.7,78.6c4.2-0.6,8-1.2,12.5-1.2c18.2,0,35.4,6.5,48.8,18.8 c-1.5,0.6-3.3,1.2-4.8,1.8c-1.5,0.6-3,1.5-4.5,2.1c-11.9-6.8-25.3-10.7-39.3-10.7c-4.2,0-8.6,0.3-12.8,0.9V78.6z M19.5,57.5 c12.8,0,25,3.3,36,9.2c-1.5,0.9-3.3,1.8-4.8,3l-19-5.4v3l15.8,4.5c-1.2,0.9-2.7,2.1-3.9,3c-1.5-0.3-3.3-0.6-4.8-0.9h-0.3 c-10.7-2.7-20.8-8-29.5-15.5C12.3,57.5,15.9,57.5,19.5,57.5 M6.7,43.2c4.2-0.6,8-1.2,12.5-1.2c18.2,0,35.4,6.5,48.8,18.8 c-1.5,0.6-3.3,1.2-4.8,1.8s-3,1.5-4.5,2.1c-11.9-6.8-25.3-10.7-39.3-10.7c-4.2,0-8.6,0.3-12.8,0.9V43.2z M56.4,16.4 c-19,0-37.8,2.4-56,7.1v6.5c18.2-4.8,36.9-7.1,56-7.1c6.3,0,12.5,0.3,18.8,0.9c-4.2,0.9-8.3,2.4-12.2,3.9c-7.1,3-14,7.1-19.9,12.2 C35.3,37.5,27.2,36,18.9,36c-6.3,0-12.5,0.9-18.5,2.1V59c0,0,0,0,0.3,0.3c4.8,4.8,10.1,8.9,15.8,12.2c-5.4,0.3-10.7,0.9-16.1,2.1 v20.8c0,0,0,0,0.3,0.3c7.1,7.1,15.8,12.8,25,17c3.9,1.8,8,3,12.2,3.9l0,0l0,0l0,0v14.3c-12.2-3.3-23.5-9.5-32.7-18.8 c-1.5-1.5-3.3-3.3-4.5-5.1v8.9c0,0,0,0,0.3,0.3c7.1,7.1,15.8,12.8,25,17c3.9,1.8,8,3,12.2,3.9l0,0c0.3,0,0.3,0,0.6,0 c0.6,0,0.9,0.3,1.5,0.3c0.3,0,0.6,0,1.2,0.3c0.3,0,0.9,0.3,1.2,0.3c0.3,0,0.9,0,1.2,0.3c0.3,0,0.6,0,0.9,0l0,0 c4.2,0.6,8.3,0.9,12.5,0.9c10.7,0,20.8-2.1,30.7-6.3c9.5-3.9,17.9-9.5,25-17c0,0,0,0,0.3-0.3V93.8c-5.4-1.2-10.7-2.1-16.1-2.1 c5.7-3.3,11-7.4,15.8-12.2c0,0,0,0,0.3-0.3V58.4c-5.4-1.2-10.7-2.1-16.1-2.1c5.7-3.3,11-7.4,15.8-12.2c0,0,0,0,0.3-0.3V29.5v-6.5 C94.2,18.8,75.4,16.4,56.4,16.4"/><path d="M283.9,15.7h21.9c11.3,0,18.2,7.8,18.2,16.9c0,5.6-2.1,9.4-5.8,12c5.8,2.4,10,7.5,10,15.2 c0,10.8-8.6,17.8-20.6,17.8h-23.8V15.7H283.9z M304.6,41.8c6.2,0,9.3-3.7,9.3-8.4c0-4.5-3.1-8.4-9.3-8.4h-10.5v16.7L304.6,41.8 L304.6,41.8z M307.7,68.2c7,0,10.4-3.7,10.4-8.8s-3.4-9-10.4-9h-13.6v17.8H307.7z"/><path d="M343.5,46.7c0-17.9,14.1-31.6,31.7-31.6c8.7,0,16.2,3,21.9,9l-6.6,7.1c-3.8-4.1-9.3-6.5-15.4-6.5 c-12.2,0-21.4,9.7-21.4,22c0,12.4,9.2,22,21.4,22c6,0,11.5-2.4,15.4-6.5l6.6,7.1c-5.7,5.9-13.2,9-21.9,9 C357.7,78.3,343.5,64.5,343.5,46.7"/><polygon points="440.1,25.7 411.4,25.7 411.4,15.7 457.5,15.7 425.1,67.7 456.9,67.7 456.9,77.6 407.7,77.6"/><polygon points="489.2,51.5 466.4,15.7 478.3,15.7 494.2,41.3 510.2,15.7 522.2,15.7 499.3,51.5 499.3,77.6 489.2,77.6"/><polygon points="545.8,38.1 545.8,77.6 535.7,77.6 535.7,15 578.1,55.2 578.1,15.7 588.2,15.7 588.2,78.3"/><path d="M605.9,67.8l7.7-6.4c2.9,3.9,7.7,7.4,13.1,7.4c6,0,9.5-2.7,9.5-7.1c0-4.6-2.9-7.3-9-10l-4.9-2.1 c-9.3-4.1-14-10-14-18c0-9.9,9-16.4,18.4-16.4c7.2,0,12.8,2.4,17.4,7.8l-7,7.2c-3.2-3.8-6-5.5-10.5-5.5c-4.2,0-8.2,2.4-8.2,6.7 c0,4,2.8,6.9,9,9.5l4.8,2.2c8.5,3.6,14.2,9,14.2,17.7c0,10.5-7.8,17.6-19.7,17.6C617.4,78.3,609.8,74.1,605.9,67.8"/><path d="M659.2,46.7c0-17.9,14.1-31.6,31.7-31.6c8.7,0,16.2,3,21.9,9l-6.5,7.1c-3.8-4.1-9.3-6.5-15.4-6.5 c-12.2,0-21.4,9.7-21.4,22c0,12.4,9.2,22,21.4,22c6,0,11.5-2.4,15.4-6.5l6.5,7.1c-5.7,5.9-13.2,9-21.9,9 C673.3,78.3,659.2,64.5,659.2,46.7"/><polygon points="766.5,15.7 750.5,41.3 734.6,15.7 722.7,15.7 745.5,51.5 745.5,77.6 755.6,77.6 755.6,51.5 778.5,15.7"/><polygon points="149.3,15.7 149.3,25.7 178,25.7 168,41.7 154.9,41.7 149.2,50.9 162.2,50.9 145.6,77.6 194.8,77.6 194.8,67.7 163,67.7 173.4,50.9 189,50.9 194.8,41.7 179.2,41.7 195.4,15.7"/><path d="M240.3,15.7h-1.1h-0.7h-10.2l4.6,9.7L208,77.6h0.5h10.8h0.2l6.6-13.8h25.6l6.4,13.5l0.1,0.3h10.9h0.6 L240.3,15.7z M230.5,54.6l8.4-17.5v-0.2l8.4,17.7H230.5z"/><polygon points="564.3,3.8 552.3,15.7 552.3,15.7 565.3,15.7 577.2,3.8 577.2,3.8"/><path d="M252.8,121.1c3.4,0,5.4-1.9,5.4-4.7c0-2.8-2-4.7-5.4-4.7h-3.7v9.5h3.7V121.1z M244.5,107.3h8.5 c5.9,0,10,3.7,10,9.1c0,5.3-4.1,9.1-10,9.1h-3.9v10.4h-4.7L244.5,107.3L244.5,107.3z"/><path d="M268.6,115.7h4.4v20.1h-4.4V115.7z M267.9,109.9c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9c0,0.7-0.2,1.4-0.7,1.9 h-4.4C268.1,111.3,267.9,110.7,267.9,109.9"/><path d="M284.1,123.6h10.3c-0.5-2.7-2.4-4.1-5.1-4.1C287,119.5,284.8,121,284.1,123.6 M279.4,125.8 c0-5.9,4.4-10.4,10.3-10.4c5.6,0,9.3,3.9,9.6,10.4v1.2H284c0.4,2.8,2.8,4.8,5.8,4.8c2.4,0,4.2-1.1,5.2-2.3l3,3.2 c-1.7,2-4.7,3.5-8.2,3.5C283.8,136.1,279.4,131.6,279.4,125.8"/><polygon points="305.7,107.3 310.1,107.3 310.1,124.8 318.1,115.7 323.3,115.7 315,125.2 324.3,135.8 318.9,135.8 310.1,125.8 310.1,135.8 305.7,135.8"/><path d="M342,129.2v-6.8c-1.1-1.6-3.1-2.7-5.3-2.7c-3.4,0-5.8,2.6-5.8,6.1s2.4,6.1,5.8,6.1 C338.9,131.9,340.9,130.8,342,129.2 M342,134.4c-1.4,1.1-3.2,1.8-5.4,1.8c-5.9,0-10.3-4.5-10.3-10.4c0-5.9,4.4-10.4,10.3-10.4 c2.1,0,4,0.7,5.4,1.8v-1.5h4.4v20.1H342V134.4z"/><path d="M354,115.7h4.4v2c1.3-1.5,3-2.2,5.2-2.2c0.5,0,1,0,1.4,0.1v4.6c-0.6-0.2-1.4-0.3-2.2-0.3 c-1.9,0-3.5,0.7-4.4,2.4v13.5H354V115.7z"/><path d="M370.8,115.7h4.4v1.9c1.4-1.5,3.5-2.2,5.6-2.2c5,0,8.1,3.5,8.1,8.6v11.8h-4.4v-11.7c0-2.2-1.6-4.5-4.6-4.5 c-2.2,0-4,1.2-4.8,3.5v12.6h-4.4v-20H370.8z"/><path d="M396.1,115.7h4.4v20.1h-4.4V115.7z M395.4,109.9c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9 c0,0.7-0.2,1.4-0.7,1.9h-4.4C395.7,111.3,395.4,110.7,395.4,109.9"/><path d="M422.7,129.2v-6.8c-1.1-1.6-3.1-2.7-5.3-2.7c-3.4,0-5.8,2.6-5.8,6.1s2.4,6.1,5.8,6.1 C419.5,131.9,421.6,130.8,422.7,129.2 M422.7,134.4c-1.4,1.1-3.2,1.8-5.4,1.8c-5.9,0-10.3-4.5-10.3-10.4c0-5.9,4.4-10.4,10.3-10.4 c2.1,0,4,0.7,5.4,1.8v-1.5h4.4v20.1h-4.4V134.4z"/><path d="M494.8,121.6c0-8.2,6.5-14.6,14.6-14.6c4,0,7.5,1.4,10.1,4.1l-3,3.3c-1.8-1.9-4.3-3-7.1-3 c-5.6,0-9.8,4.5-9.8,10.2s4.2,10.2,9.8,10.2c2.8,0,5.3-1.1,7.1-3l3,3.3c-2.6,2.7-6.1,4.1-10.1,4.1 C501.3,136.1,494.8,129.8,494.8,121.6"/><path d="M538.7,134c-1.4,1.5-3.5,2.2-5.6,2.2c-5,0-8.1-3.5-8.1-8.6v-11.8h4.4v11.7c0,2.2,1.6,4.5,4.6,4.5 c2.2,0,3.9-1.1,4.8-3.4v-12.8h4.4v20.1h-4.4L538.7,134L538.7,134z"/><polygon points="550.7,107.3 555.1,107.3 555.1,124.8 563.1,115.7 568.4,115.7 560,125.2 569.4,135.8 563.9,135.8 555.1,125.8 555.1,135.8 550.7,135.8"/><path d="M574.2,115.7h4.4v20.1h-4.4V115.7z M573.4,109.9c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9 c0,0.7-0.2,1.4-0.7,1.9h-4.4C573.7,111.3,573.4,110.7,573.4,109.9"/><path d="M589.7,123.6H600c-0.5-2.7-2.4-4.1-5.1-4.1C592.6,119.5,590.4,121,589.7,123.6 M585,125.8 c0-5.9,4.4-10.4,10.3-10.4c5.6,0,9.3,3.9,9.6,10.4v1.2h-15.3c0.4,2.8,2.8,4.8,5.8,4.8c2.4,0,4.2-1.1,5.2-2.3l3,3.2 c-1.7,2-4.7,3.5-8.2,3.5C589.4,136.1,585,131.6,585,125.8"/><path d="M611.3,115.7h4.4v2c1.3-1.5,3-2.2,5.2-2.2c0.5,0,1,0,1.4,0.1v4.6c-0.6-0.2-1.4-0.3-2.2-0.3 c-1.9,0-3.5,0.7-4.4,2.4v13.5h-4.4V115.7z"/><path d="M628,115.7h4.4v1.9c1.4-1.5,3.5-2.2,5.6-2.2c5,0,8.1,3.5,8.1,8.6v11.8h-4.4v-11.7c0-2.2-1.6-4.5-4.6-4.5 c-2.2,0-4,1.2-4.8,3.5v12.6h-4.4L628,115.7L628,115.7z"/><path d="M653.4,115.7h4.4v20.1h-4.4L653.4,115.7L653.4,115.7z M652.6,109.9c0-1.6,1.3-2.9,2.9-2.9 c1.6,0,2.9,1.3,2.9,2.9c0,0.7-0.2,1.4-0.7,1.9h-4.4C652.9,111.3,652.6,110.7,652.6,109.9"/><path d="M679.9,129.2v-6.8c-1.1-1.6-3.1-2.7-5.3-2.7c-3.4,0-5.8,2.6-5.8,6.1s2.4,6.1,5.8,6.1 C676.8,131.9,678.8,130.8,679.9,129.2 M679.9,134.4c-1.4,1.1-3.3,1.8-5.4,1.8c-5.9,0-10.3-4.5-10.3-10.4c0-5.9,4.4-10.4,10.3-10.4 c2.1,0,4,0.7,5.4,1.8v-1.5h4.4v20.1h-4.4V134.4z"/><rect x="456.7" y="120.6" width="10.6" height="10.6" transform="matrix(0.707 -0.7072 0.7072 0.707 46.3416 363.6332)"/></svg></a>
+    <nav class="menu" id="menu" aria-label="Menu główne">
+      <a href="#" class="on" aria-current="page">Start</a>
+      <a href="#wypieki">Wypieki</a>
+      <a href="#tradycja">Tradycja</a>
+      <a href="#sklepy">Sklepy</a>
+      <a href="#kontakt">Kontakt</a>
+      <a class="mtel" href="tel:+48256845035"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6.6 3.5 9 3l1.6 4.4-2 1.4a12 12 0 0 0 6.6 6.6l1.4-2L21 15l-.5 2.4c-.2 1-1.1 1.6-2.1 1.6C10.6 19 5 13.4 5 5.6c0-1 .6-1.9 1.6-2.1Z"/></svg>25 684 50 35</a>
+    </nav>
+    <a class="tel" href="tel:+48256845035"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6.6 3.5 9 3l1.6 4.4-2 1.4a12 12 0 0 0 6.6 6.6l1.4-2L21 15l-.5 2.4c-.2 1-1.1 1.6-2.1 1.6C10.6 19 5 13.4 5 5.6c0-1 .6-1.9 1.6-2.1Z"/></svg>25 684 50 35</a>
+    <button class="burger" type="button" aria-label="Otwórz menu" aria-expanded="false" aria-controls="menu"><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="start">
+  <picture>
+    <source media="(max-width:760px)" srcset="img/hero-m-480.webp 480w, img/hero-m-800.webp 800w" sizes="100vw" width="800" height="1067">
+    <img src="img/hero-1600.webp" srcset="img/hero-1024.webp 1024w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w" sizes="100vw" width="1600" height="900" alt="Półki z bochenkami chleba i bułkami w sklepie piekarni" fetchpriority="high" decoding="async">
+  </picture>
+  <div class="wrap hero-in">
+    <h1>Piekarnia z&nbsp;rodziny młynarzy</h1>
+    <p class="lead">Od 1942 roku Żabczyńscy mielą zboże, a&nbsp;od 2003 roku pieką w&nbsp;Łaskarzewie. Chleb na kwasie naturalnym, bułki, ciasta i&nbsp;torty znajdziesz w&nbsp;naszych sklepach firmowych na Mazowszu i&nbsp;Lubelszczyźnie.</p>
+    <div class="cta">
+      <a class="btn jas" href="#sklepy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4.5Q12 2.6 20 4.5V13c0 4-3.6 6.6-8 8-4.4-1.4-8-4-8-8Z"/><path d="M8 11q4-2 8 0"/></svg>Znajdź najbliższy sklep</a>
+      <span class="adr">Piekarnia: ul. Warszawska 76, Łaskarzew</span>
+    </div>
+  </div>
+  <div class="luk" aria-hidden="true"><svg viewBox="0 0 1000 40" preserveAspectRatio="none"><path d="M0 40V14Q500-12 1000 14V40Z" fill="currentColor"/></svg></div>
+</section>
+
+<section class="sek" id="wypieki">
+  <div class="wrap">
+    <div class="naglowek">
+      <div>
+        <h2>Co pieczemy</h2>
+      </div>
+      <p>Codziennie świeże pieczywo z&nbsp;piekarni w&nbsp;Łaskarzewie i&nbsp;wyroby z&nbsp;naszej cukierni. Bez substancji przedłużających trwałość.</p>
+      <div class="strz"><button type="button" class="prev" aria-label="Poprzednie"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button><button type="button" class="next" aria-label="Następne"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button></div>
+    </div>
+    <div class="karuz">
+      <div class="pas" id="pas">
+        <article class="karta"><button type="button" data-big="img/chleby-800.webp" data-alt="Chleby" aria-label="Powiększ zdjęcie: Chleby"><img src="img/chleby-480.webp" srcset="img/chleby-480.webp 480w, img/chleby-640.webp 640w, img/chleby-800.webp 800w" sizes="(max-width:760px) 78vw, (max-width:1180px) 31vw, 300px" width="480" height="600" loading="lazy" decoding="async" alt="Chleby - zdjęcie poglądowe"></button><h3>Chleby</h3><p>Kresowy, Słowiański, Podhalański z&nbsp;maślanką, Orkiszowy, Z&nbsp;dynią, Zdrówko.</p></article><article class="karta"><button type="button" data-big="img/bulki-800.webp" data-alt="Bułki" aria-label="Powiększ zdjęcie: Bułki"><img src="img/bulki-480.webp" srcset="img/bulki-480.webp 480w, img/bulki-640.webp 640w, img/bulki-800.webp 800w" sizes="(max-width:760px) 78vw, (max-width:1180px) 31vw, 300px" width="480" height="600" loading="lazy" decoding="async" alt="Bułki - zdjęcie poglądowe"></button><h3>Bułki</h3><p>Grahamka, kajzerka, owsiana, węzełek, bagietka firmowa.</p></article><article class="karta"><button type="button" data-big="img/slodkie-800.webp" data-alt="Słodkie wypieki" aria-label="Powiększ zdjęcie: Słodkie wypieki"><img src="img/slodkie-480.webp" srcset="img/slodkie-480.webp 480w, img/slodkie-640.webp 640w, img/slodkie-800.webp 800w" sizes="(max-width:760px) 78vw, (max-width:1180px) 31vw, 300px" width="480" height="600" loading="lazy" decoding="async" alt="Słodkie wypieki - zdjęcie poglądowe"></button><h3>Słodkie wypieki</h3><p>Bułki z&nbsp;serem, z&nbsp;jabłkiem i&nbsp;z&nbsp;budyniem, ósemki, rogaliki z&nbsp;makiem.</p></article><article class="karta"><button type="button" data-big="img/ciasta-800.webp" data-alt="Ciasta" aria-label="Powiększ zdjęcie: Ciasta"><img src="img/ciasta-480.webp" srcset="img/ciasta-480.webp 480w, img/ciasta-640.webp 640w, img/ciasta-800.webp 800w" sizes="(max-width:760px) 78vw, (max-width:1180px) 31vw, 300px" width="480" height="600" loading="lazy" decoding="async" alt="Ciasta - zdjęcie poglądowe"></button><h3>Ciasta</h3><p>Sernik krakowski, kremówka, kostka jogurtowo-malinowa, Leśna kukułka.</p></article><article class="karta"><button type="button" data-big="img/torty-800.webp" data-alt="Torty" aria-label="Powiększ zdjęcie: Torty"><img src="img/torty-480.webp" srcset="img/torty-480.webp 480w, img/torty-640.webp 640w, img/torty-800.webp 800w" sizes="(max-width:760px) 78vw, (max-width:1180px) 31vw, 300px" width="480" height="600" loading="lazy" decoding="async" alt="Torty - zdjęcie poglądowe"></button><h3>Torty</h3><p>Okolicznościowe, komunijne, weselne i&nbsp;dla dzieci.</p></article><article class="karta"><button type="button" data-big="img/paczki-800.webp" data-alt="Pączki i przekąski" aria-label="Powiększ zdjęcie: Pączki i przekąski"><img src="img/paczki-480.webp" srcset="img/paczki-480.webp 480w, img/paczki-640.webp 640w, img/paczki-800.webp 800w" sizes="(max-width:760px) 78vw, (max-width:1180px) 31vw, 300px" width="480" height="600" loading="lazy" decoding="async" alt="Pączki i przekąski - zdjęcie poglądowe"></button><h3>Pączki i&nbsp;przekąski</h3><p>Pączki z&nbsp;nadzieniem wiśniowym, oponki, paluchy czosnkowe.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sek trad" id="tradycja">
+  <div class="wrap">
+    <div class="trad-foto"><img src="img/piec-640.webp" srcset="img/piec-640.webp 640w, img/piec-1000.webp 1000w" sizes="(max-width:960px) min(520px,92vw), 40vw" width="640" height="800" loading="lazy" decoding="async" alt="Bochenki chleba na półkach pieca"></div>
+    <div class="txt">
+      <h2>Od młyna do piekarni</h2>
+      <p>Nasza firma zaczęła się od mąki. Dziś rodzina Żabczyńskich prowadzi trzy młyny, piekarnię i&nbsp;cukiernię w&nbsp;Łaskarzewie oraz sieć sklepów firmowych. Podstawą naszego chleba jest kwas naturalny prowadzony tradycyjną metodą.</p>
+      <ul class="lata">
+        <li><b>1942</b><span>Rafał Żabczyński buduje młyn w&nbsp;Łaskarzewie.</span></li>
+        <li><b>2003</b><span>Piekarnia w&nbsp;Łaskarzewie, działająca od 1964 roku, przechodzi w&nbsp;ręce rodziny.</span></li>
+        <li><b>2009</b><span>Oddajemy nowy budynek piekarni. Stary budynek zostaje cukierni.</span></li>
+        <li><b>Dziś</b><span>Młyny w&nbsp;Łaskarzewie, Łukowie i&nbsp;Stoczku Łukowskim, mąka TOTA i&nbsp;sklepy firmowe od Mińska Mazowieckiego po Radzyń Podlaski.</span></li>
+      </ul>
+      <div class="duo">
+        <img src="img/klos-480.webp" srcset="img/klos-480.webp 480w, img/klos-800.webp 800w" sizes="(max-width:760px) 45vw, 250px" width="480" height="480" loading="lazy" decoding="async" alt="Dojrzałe kłosy pszenicy">
+        <img src="img/ciasto-480.webp" srcset="img/ciasto-480.webp 480w, img/ciasto-800.webp 800w" sizes="(max-width:760px) 45vw, 250px" width="480" height="480" loading="lazy" decoding="async" alt="Ręce piekarza wyrabiające ciasto">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sek sek-g" id="sklepy">
+  <div class="wrap">
+    <div class="naglowek">
+      <h2>Nasze sklepy</h2>
+      <p>Wybierz miejscowość, a&nbsp;pokażemy sklepy na mapie. Jedno dotknięcie wyznacza trasę w&nbsp;Mapach Google.</p>
+    </div>
+    <div class="filtry" id="filtry" role="toolbar" aria-label="Filtr miejscowości"></div>
+    <div class="sklepy">
+      <ul class="lista" id="lista"></ul>
+      <div class="mapa" id="mapa" aria-label="Mapa sklepów firmowych"><div class="ph">Mapa sklepów ładuje się...</div></div>
+    </div>
+    <p class="uwaga">W&nbsp;podglądzie adresy pochodzą z&nbsp;poprzedniej wersji strony zabczynscy.pl (stan z&nbsp;2023 roku). Telefony do każdego punktu i&nbsp;godziny otwarcia uzupełnimy z&nbsp;Państwa aktualnej listy.</p>
+    <div class="centrala"><span>Pytania o&nbsp;wypieki i&nbsp;zamówienia:</span><a href="tel:+48256845035">25 684 50 35</a><a href="tel:+48885022074">885 022 074</a><a href="mailto:piekarnia@zabczynscy.pl">piekarnia@zabczynscy.pl</a></div>
+  </div>
+</section>
+
+<section class="sek" id="kontakt">
+  <div class="wrap">
+    <div class="naglowek"><h2>Kontakt</h2></div>
+    <div class="kont">
+      <div class="kblok">
+        <h3>Piekarnia i&nbsp;cukiernia</h3>
+        <p>ul. Warszawska 76<br>08-450 Łaskarzew</p>
+        <p><a class="duzy" href="tel:+48256845035">25 684 50 35</a><a href="tel:+48885022074">kom. 885 022 074</a><br><a href="mailto:piekarnia@zabczynscy.pl">piekarnia@zabczynscy.pl</a></p>
+      </div>
+      <div class="kblok">
+        <h3>Biuro firmy</h3>
+        <p>P.H.U.P. „K.W.S. Żabczyńscy” Sp. z&nbsp;o.o.<br>ul. Młyńska 7, 08-450 Łaskarzew<br>NIP 826-197-51-18</p>
+        <p style="margin-top:10px"><a href="mailto:kontakt@zabczynscy.pl">kontakt@zabczynscy.pl</a></p>
+      </div>
+      <div class="kblok">
+        <h3>Młyny i&nbsp;mąka TOTA</h3>
+        <p>Młyny w&nbsp;Łaskarzewie, Łukowie i&nbsp;Stoczku Łukowskim. Mąkę z&nbsp;rodzinnych młynów sprzedajemy pod marką TOTA.</p>
+        <p style="margin-top:10px"><a href="https://mlynzabczynscy.pl/" rel="noopener">mlynzabczynscy.pl</a><br><a href="https://www.tota.pl/" rel="noopener">tota.pl</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="stopka">
+  <div class="wrap">
+    <div class="f1">
+      <a class="logo" href="#" aria-label="Żabczyńscy - do góry"><svg role="img" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780.9 140.3" fill="currentColor"><path d="M112.7,17.9v-6.3c-18.2-4.5-36.9-6.8-56-6.8c-18.8,0-37.5,2.4-56,6.8v6.5c18.2-4.5,36.9-6.8,56-6.8 C75.7,11,94.5,13.4,112.7,17.9"/><path d="M106.1,40.5c-4.2-0.6-8.3-0.9-12.5-0.9c-11.9,0-23.2,2.7-33.6,7.7c-3.3-1.8-6.5-3.6-9.8-5.1 c12.5-9.5,27.7-14.9,43.8-14.9c4.2,0,8.3,0.3,12.5,1.2v11.9H106.1z M74.8,59c-1.2-1.2-2.4-2.4-3.6-3.3l10.1-3v-3.3l-13.1,3.9 c-1.8-1.5-3.6-2.7-5.4-3.9c9.5-4.2,19.9-6.5,30.7-6.5c3.6,0,7.1,0.3,10.4,0.9C95.7,50.9,85.6,56,74.8,59 M106.1,75.9 c-4.2-0.6-8.3-0.9-12.5-0.9c-11.9,0-23.2,2.7-33.6,7.7c-3.3-1.8-6.5-3.6-9.8-5.1c12.5-9.5,27.7-14.9,43.8-14.9 c4.2,0,8.3,0.3,12.5,1.2v11.9H106.1z M74.8,94.4c-1.2-1.2-2.4-2.4-3.6-3.3l10.1-3v-3.3l-13.1,3.9c-1.8-1.5-3.6-2.7-5.4-3.9 c9.5-4.2,19.9-6.5,30.7-6.5c3.6,0,7.1,0.3,10.4,0.9C95.7,86.3,85.6,91.4,74.8,94.4 M106.1,111.3c-4.2-0.6-8.3-0.9-12.5-0.9 c-18.2,0-35.7,6.3-49.4,17.9v-10.4c13.4-12.8,31.3-19.6,49.7-19.6c4.2,0,8.3,0.3,12.5,1.2v11.9H106.1z M56.4,131.9 c-1.5,0-3,0-4.8,0l29.5-8.6V120l-34.5,10.1c13.1-10.7,29.5-16.7,46.7-16.7c3.6,0,7.1,0.3,10.4,0.9 C90.9,125.6,74.3,131.9,56.4,131.9 M8.8,93.5c3.6-0.6,7.1-0.9,10.4-0.9c12.8,0,25,3.3,36,9.2c-1.5,0.9-3.3,1.8-4.8,3l-19-5.4v3.3 l15.8,4.5c-1.2,0.9-2.7,2.1-3.9,3C30.8,107.8,18.9,102.1,8.8,93.5 M6.7,78.6c4.2-0.6,8-1.2,12.5-1.2c18.2,0,35.4,6.5,48.8,18.8 c-1.5,0.6-3.3,1.2-4.8,1.8c-1.5,0.6-3,1.5-4.5,2.1c-11.9-6.8-25.3-10.7-39.3-10.7c-4.2,0-8.6,0.3-12.8,0.9V78.6z M19.5,57.5 c12.8,0,25,3.3,36,9.2c-1.5,0.9-3.3,1.8-4.8,3l-19-5.4v3l15.8,4.5c-1.2,0.9-2.7,2.1-3.9,3c-1.5-0.3-3.3-0.6-4.8-0.9h-0.3 c-10.7-2.7-20.8-8-29.5-15.5C12.3,57.5,15.9,57.5,19.5,57.5 M6.7,43.2c4.2-0.6,8-1.2,12.5-1.2c18.2,0,35.4,6.5,48.8,18.8 c-1.5,0.6-3.3,1.2-4.8,1.8s-3,1.5-4.5,2.1c-11.9-6.8-25.3-10.7-39.3-10.7c-4.2,0-8.6,0.3-12.8,0.9V43.2z M56.4,16.4 c-19,0-37.8,2.4-56,7.1v6.5c18.2-4.8,36.9-7.1,56-7.1c6.3,0,12.5,0.3,18.8,0.9c-4.2,0.9-8.3,2.4-12.2,3.9c-7.1,3-14,7.1-19.9,12.2 C35.3,37.5,27.2,36,18.9,36c-6.3,0-12.5,0.9-18.5,2.1V59c0,0,0,0,0.3,0.3c4.8,4.8,10.1,8.9,15.8,12.2c-5.4,0.3-10.7,0.9-16.1,2.1 v20.8c0,0,0,0,0.3,0.3c7.1,7.1,15.8,12.8,25,17c3.9,1.8,8,3,12.2,3.9l0,0l0,0l0,0v14.3c-12.2-3.3-23.5-9.5-32.7-18.8 c-1.5-1.5-3.3-3.3-4.5-5.1v8.9c0,0,0,0,0.3,0.3c7.1,7.1,15.8,12.8,25,17c3.9,1.8,8,3,12.2,3.9l0,0c0.3,0,0.3,0,0.6,0 c0.6,0,0.9,0.3,1.5,0.3c0.3,0,0.6,0,1.2,0.3c0.3,0,0.9,0.3,1.2,0.3c0.3,0,0.9,0,1.2,0.3c0.3,0,0.6,0,0.9,0l0,0 c4.2,0.6,8.3,0.9,12.5,0.9c10.7,0,20.8-2.1,30.7-6.3c9.5-3.9,17.9-9.5,25-17c0,0,0,0,0.3-0.3V93.8c-5.4-1.2-10.7-2.1-16.1-2.1 c5.7-3.3,11-7.4,15.8-12.2c0,0,0,0,0.3-0.3V58.4c-5.4-1.2-10.7-2.1-16.1-2.1c5.7-3.3,11-7.4,15.8-12.2c0,0,0,0,0.3-0.3V29.5v-6.5 C94.2,18.8,75.4,16.4,56.4,16.4"/><path d="M283.9,15.7h21.9c11.3,0,18.2,7.8,18.2,16.9c0,5.6-2.1,9.4-5.8,12c5.8,2.4,10,7.5,10,15.2 c0,10.8-8.6,17.8-20.6,17.8h-23.8V15.7H283.9z M304.6,41.8c6.2,0,9.3-3.7,9.3-8.4c0-4.5-3.1-8.4-9.3-8.4h-10.5v16.7L304.6,41.8 L304.6,41.8z M307.7,68.2c7,0,10.4-3.7,10.4-8.8s-3.4-9-10.4-9h-13.6v17.8H307.7z"/><path d="M343.5,46.7c0-17.9,14.1-31.6,31.7-31.6c8.7,0,16.2,3,21.9,9l-6.6,7.1c-3.8-4.1-9.3-6.5-15.4-6.5 c-12.2,0-21.4,9.7-21.4,22c0,12.4,9.2,22,21.4,22c6,0,11.5-2.4,15.4-6.5l6.6,7.1c-5.7,5.9-13.2,9-21.9,9 C357.7,78.3,343.5,64.5,343.5,46.7"/><polygon points="440.1,25.7 411.4,25.7 411.4,15.7 457.5,15.7 425.1,67.7 456.9,67.7 456.9,77.6 407.7,77.6"/><polygon points="489.2,51.5 466.4,15.7 478.3,15.7 494.2,41.3 510.2,15.7 522.2,15.7 499.3,51.5 499.3,77.6 489.2,77.6"/><polygon points="545.8,38.1 545.8,77.6 535.7,77.6 535.7,15 578.1,55.2 578.1,15.7 588.2,15.7 588.2,78.3"/><path d="M605.9,67.8l7.7-6.4c2.9,3.9,7.7,7.4,13.1,7.4c6,0,9.5-2.7,9.5-7.1c0-4.6-2.9-7.3-9-10l-4.9-2.1 c-9.3-4.1-14-10-14-18c0-9.9,9-16.4,18.4-16.4c7.2,0,12.8,2.4,17.4,7.8l-7,7.2c-3.2-3.8-6-5.5-10.5-5.5c-4.2,0-8.2,2.4-8.2,6.7 c0,4,2.8,6.9,9,9.5l4.8,2.2c8.5,3.6,14.2,9,14.2,17.7c0,10.5-7.8,17.6-19.7,17.6C617.4,78.3,609.8,74.1,605.9,67.8"/><path d="M659.2,46.7c0-17.9,14.1-31.6,31.7-31.6c8.7,0,16.2,3,21.9,9l-6.5,7.1c-3.8-4.1-9.3-6.5-15.4-6.5 c-12.2,0-21.4,9.7-21.4,22c0,12.4,9.2,22,21.4,22c6,0,11.5-2.4,15.4-6.5l6.5,7.1c-5.7,5.9-13.2,9-21.9,9 C673.3,78.3,659.2,64.5,659.2,46.7"/><polygon points="766.5,15.7 750.5,41.3 734.6,15.7 722.7,15.7 745.5,51.5 745.5,77.6 755.6,77.6 755.6,51.5 778.5,15.7"/><polygon points="149.3,15.7 149.3,25.7 178,25.7 168,41.7 154.9,41.7 149.2,50.9 162.2,50.9 145.6,77.6 194.8,77.6 194.8,67.7 163,67.7 173.4,50.9 189,50.9 194.8,41.7 179.2,41.7 195.4,15.7"/><path d="M240.3,15.7h-1.1h-0.7h-10.2l4.6,9.7L208,77.6h0.5h10.8h0.2l6.6-13.8h25.6l6.4,13.5l0.1,0.3h10.9h0.6 L240.3,15.7z M230.5,54.6l8.4-17.5v-0.2l8.4,17.7H230.5z"/><polygon points="564.3,3.8 552.3,15.7 552.3,15.7 565.3,15.7 577.2,3.8 577.2,3.8"/><path d="M252.8,121.1c3.4,0,5.4-1.9,5.4-4.7c0-2.8-2-4.7-5.4-4.7h-3.7v9.5h3.7V121.1z M244.5,107.3h8.5 c5.9,0,10,3.7,10,9.1c0,5.3-4.1,9.1-10,9.1h-3.9v10.4h-4.7L244.5,107.3L244.5,107.3z"/><path d="M268.6,115.7h4.4v20.1h-4.4V115.7z M267.9,109.9c0-1.6,1.3-2.9,2.9-2.9s2.9,1.3,2.9,2.9c0,0.7-0.2,1.4-0.7,1.9 h-4.4C268.1,111.3,267.9,110.7,267.9,109.9"/><path d="M284.1,123.6h10.3c-0.5-2.7-2.4-4.1-5.1-4.1C287,119.5,284.8,121,284.1,123.6 M279.4,125.8 c0-5.9,4.4-10.4,10.3-10.4c5.6,0,9.3,3.9,9.6,10.4v1.2H284c0.4,2.8,2.8,4.8,5.8,4.8c2.4,0,4.2-1.1,5.2-2.3l3,3.2 c-1.7,2-4.7,3.5-8.2,3.5C283.8,136.1,279.4,131.6,279.4,125.8"/><polygon points="305.7,107.3 310.1,107.3 310.1,124.8 318.1,115.7 323.3,115.7 315,125.2 324.3,135.8 318.9,135.8 310.1,125.8 310.1,135.8 305.7,135.8"/><path d="M342,129.2v-6.8c-1.1-1.6-3.1-2.7-5.3-2.7c-3.4,0-5.8,2.6-5.8,6.1s2.4,6.1,5.8,6.1 C338.9,131.9,340.9,130.8,342,129.2 M342,134.4c-1.4,1.1-3.2,1.8-5.4,1.8c-5.9,0-10.3-4.5-10.3-10.4c0-5.9,4.4-10.4,10.3-10.4 c2.1,0,4,0.7,5.4,1.8v-1.5h4.4v20.1H342V134.4z"/><path d="M354,115.7h4.4v2c1.3-1.5,3-2.2,5.2-2.2c0.5,0,1,0,1.4,0.1v4.6c-0.6-0.2-1.4-0.3-2.2-0.3 c-1.9,0-3.5,0.7-4.4,2.4v13.5H354V115.7z"/><path d="M370.8,115.7h4.4v1.9c1.4-1.5,3.5-2.2,5.6-2.2c5,0,8.1,3.5,8.1,8.6v11.8h-4.4v-11.7c0-2.2-1.6-4.5-4.6-4.5 c-2.2,0-4,1.2-4.8,3.5v12.6h-4.4v-20H370.8z"/><path d="M396.1,115.7h4.4v20.1h-4.4V115.7z M395.4,109.9c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9 c0,0.7-0.2,1.4-0.7,1.9h-4.4C395.7,111.3,395.4,110.7,395.4,109.9"/><path d="M422.7,129.2v-6.8c-1.1-1.6-3.1-2.7-5.3-2.7c-3.4,0-5.8,2.6-5.8,6.1s2.4,6.1,5.8,6.1 C419.5,131.9,421.6,130.8,422.7,129.2 M422.7,134.4c-1.4,1.1-3.2,1.8-5.4,1.8c-5.9,0-10.3-4.5-10.3-10.4c0-5.9,4.4-10.4,10.3-10.4 c2.1,0,4,0.7,5.4,1.8v-1.5h4.4v20.1h-4.4V134.4z"/><path d="M494.8,121.6c0-8.2,6.5-14.6,14.6-14.6c4,0,7.5,1.4,10.1,4.1l-3,3.3c-1.8-1.9-4.3-3-7.1-3 c-5.6,0-9.8,4.5-9.8,10.2s4.2,10.2,9.8,10.2c2.8,0,5.3-1.1,7.1-3l3,3.3c-2.6,2.7-6.1,4.1-10.1,4.1 C501.3,136.1,494.8,129.8,494.8,121.6"/><path d="M538.7,134c-1.4,1.5-3.5,2.2-5.6,2.2c-5,0-8.1-3.5-8.1-8.6v-11.8h4.4v11.7c0,2.2,1.6,4.5,4.6,4.5 c2.2,0,3.9-1.1,4.8-3.4v-12.8h4.4v20.1h-4.4L538.7,134L538.7,134z"/><polygon points="550.7,107.3 555.1,107.3 555.1,124.8 563.1,115.7 568.4,115.7 560,125.2 569.4,135.8 563.9,135.8 555.1,125.8 555.1,135.8 550.7,135.8"/><path d="M574.2,115.7h4.4v20.1h-4.4V115.7z M573.4,109.9c0-1.6,1.3-2.9,2.9-2.9c1.6,0,2.9,1.3,2.9,2.9 c0,0.7-0.2,1.4-0.7,1.9h-4.4C573.7,111.3,573.4,110.7,573.4,109.9"/><path d="M589.7,123.6H600c-0.5-2.7-2.4-4.1-5.1-4.1C592.6,119.5,590.4,121,589.7,123.6 M585,125.8 c0-5.9,4.4-10.4,10.3-10.4c5.6,0,9.3,3.9,9.6,10.4v1.2h-15.3c0.4,2.8,2.8,4.8,5.8,4.8c2.4,0,4.2-1.1,5.2-2.3l3,3.2 c-1.7,2-4.7,3.5-8.2,3.5C589.4,136.1,585,131.6,585,125.8"/><path d="M611.3,115.7h4.4v2c1.3-1.5,3-2.2,5.2-2.2c0.5,0,1,0,1.4,0.1v4.6c-0.6-0.2-1.4-0.3-2.2-0.3 c-1.9,0-3.5,0.7-4.4,2.4v13.5h-4.4V115.7z"/><path d="M628,115.7h4.4v1.9c1.4-1.5,3.5-2.2,5.6-2.2c5,0,8.1,3.5,8.1,8.6v11.8h-4.4v-11.7c0-2.2-1.6-4.5-4.6-4.5 c-2.2,0-4,1.2-4.8,3.5v12.6h-4.4L628,115.7L628,115.7z"/><path d="M653.4,115.7h4.4v20.1h-4.4L653.4,115.7L653.4,115.7z M652.6,109.9c0-1.6,1.3-2.9,2.9-2.9 c1.6,0,2.9,1.3,2.9,2.9c0,0.7-0.2,1.4-0.7,1.9h-4.4C652.9,111.3,652.6,110.7,652.6,109.9"/><path d="M679.9,129.2v-6.8c-1.1-1.6-3.1-2.7-5.3-2.7c-3.4,0-5.8,2.6-5.8,6.1s2.4,6.1,5.8,6.1 C676.8,131.9,678.8,130.8,679.9,129.2 M679.9,134.4c-1.4,1.1-3.3,1.8-5.4,1.8c-5.9,0-10.3-4.5-10.3-10.4c0-5.9,4.4-10.4,10.3-10.4 c2.1,0,4,0.7,5.4,1.8v-1.5h4.4v20.1h-4.4V134.4z"/><rect x="456.7" y="120.6" width="10.6" height="10.6" transform="matrix(0.707 -0.7072 0.7072 0.707 46.3416 363.6332)"/></svg></a>
+      <p style="margin-top:14px;max-width:24em">Rodzinna piekarnia i&nbsp;cukiernia z&nbsp;Łaskarzewa. Sklepy firmowe na Mazowszu i&nbsp;Lubelszczyźnie.</p>
+    </div>
+    <div><h4>Strona</h4><ul><li><a href="#wypieki">Wypieki</a></li><li><a href="#tradycja">Tradycja</a></li><li><a href="#sklepy">Sklepy</a></li><li><a href="#kontakt">Kontakt</a></li></ul></div>
+    <div><h4>Sklepy</h4><ul><li><a href="#sklepy" data-m="Łaskarzew">Łaskarzew</a></li><li><a href="#sklepy" data-m="Garwolin">Garwolin</a></li><li><a href="#sklepy" data-m="Łuków">Łuków</a></li><li><a href="#sklepy" data-m="Ryki">Ryki</a></li></ul></div>
+    <div><h4>Kontakt</h4><ul><li><a href="tel:+48256845035">25 684 50 35</a></li><li><a href="mailto:piekarnia@zabczynscy.pl">piekarnia@zabczynscy.pl</a></li><li>ul. Warszawska 76, Łaskarzew</li></ul></div>
+    <div class="dol">
+      <span>© <span id="rok">2026</span> P.H.U.P. „K.W.S. Żabczyńscy” Sp. z&nbsp;o.o.</span>
+      <a class="wylinka-badge" href="https://wylinka.pl/?utm_source=zabczynscy.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a>
+    </div>
+    <details>
+      <summary>Zdjęcia w&nbsp;podglądzie są poglądowe (Wikimedia Commons) - autorzy i&nbsp;licencje</summary>
+      <p>pierwszy ekran: <a href="https://commons.wikimedia.org/wiki/File:Bread_in_shop.jpg" rel="noopener">Bread in shop.jpg</a>, GeoMancer448, CC BY 4.0 (zmodyfikowane: usunięte ceny z&nbsp;tabliczek); chleby: <a href="https://commons.wikimedia.org/wiki/File:Polish_bread_Smaki_Regionow,_poznan_(2).jpg" rel="noopener">Polish bread Smaki Regionow, poznan (2).jpg</a>, MOs810, CC BY-SA 4.0; tradycja: <a href="https://commons.wikimedia.org/wiki/File:Loaves_of_Bread_(Unsplash).jpg" rel="noopener">Loaves of Bread (Unsplash).jpg</a>, Clark Young clark1, CC0; bułki: <a href="https://commons.wikimedia.org/wiki/File:Basket_of_rolls.jpg" rel="noopener">Basket of rolls.jpg</a>, Daniel Sone (Photographer), Public domain; słodkie wypieki: <a href="https://commons.wikimedia.org/wiki/File:Biokaiser_Frankfurt_s%C3%BCsse_Auslage_(2).jpg" rel="noopener">Biokaiser Frankfurt süsse Auslage (2).jpg</a>, Benreis, CC BY-SA 4.0; ciasta: <a href="https://commons.wikimedia.org/wiki/File:2023_Sernik_polski_(1).jpg" rel="noopener">2023 Sernik polski (1).jpg</a>, Jacek Halicki, CC BY-SA 4.0; pączki: <a href="https://commons.wikimedia.org/wiki/File:Powdered_Sugar_Jelly_Doughnut.jpg" rel="noopener">Powdered Sugar Jelly Doughnut.jpg</a>, Kevin Payravi, CC BY-SA 4.0; torty: <a href="https://commons.wikimedia.org/wiki/File:Strawberry_and_Vanilla_Cake_with_Baked_Hearts_on_display_At_BonBons_Bakery_of_Southland.jpg" rel="noopener">Strawberry and Vanilla Cake with Baked Hearts on display At BonBons Bakery of Southland.jpg</a>, Brassluff, CC0; kłosy: <a href="https://commons.wikimedia.org/wiki/File:Wheat-8844.jpg" rel="noopener">Wheat-8844.jpg</a>, Hans, CC0; ciasto: <a href="https://commons.wikimedia.org/wiki/File:Baker_woman%27s_hands_kneading_bread_dough.jpg" rel="noopener">Baker woman&#x27;s hands kneading bread dough.jpg</a>, Shixart1985, CC BY 2.0. Mapa: © autorzy OpenStreetMap. Logo: materiały firmy Żabczyńscy.</p>
+    </details>
+  </div>
+</footer>
+
+<div class="mob" id="mob"><a href="tel:+48256845035"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6.6 3.5 9 3l1.6 4.4-2 1.4a12 12 0 0 0 6.6 6.6l1.4-2L21 15l-.5 2.4c-.2 1-1.1 1.6-2.1 1.6C10.6 19 5 13.4 5 5.6c0-1 .6-1.9 1.6-2.1Z"/></svg>Zadzwoń</a><a href="#sklepy"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 4.5Q12 2.6 20 4.5V13c0 4-3.6 6.6-8 8-4.4-1.4-8-4-8-8Z"/><path d="M8 11q4-2 8 0"/></svg>Sklepy</a></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie"><button type="button" aria-label="Zamknij">×</button><img alt=""><p></p></div>
+<script>window.SKLEPY=[{"m":"Łaskarzew","a":"ul. Zwycięstwa 3","kod":"08-450","lat":51.79801,"lng":21.58707,"lvl":"adres"},{"m":"Łaskarzew","a":"ul. Warszawska 2","kod":"08-450","lat":51.78956,"lng":21.59297,"lvl":"adres"},{"m":"Garwolin","a":"ul. Kościuszki 21A","kod":"08-400","lat":51.89665,"lng":21.61484,"lvl":"adres"},{"m":"Garwolin","a":"ul. Kościuszki 2","kod":"08-400","lat":51.89571,"lng":21.61759,"lvl":"adres"},{"m":"Garwolin","a":"ul. Dobra 1/1","kod":"08-400","lat":51.88399,"lng":21.62785,"lvl":"adres"},{"m":"Garwolin","a":"ul. Kościuszki 39","kod":"08-400","lat":51.89906,"lng":21.61284,"lvl":"adres"},{"m":"Garwolin","a":"ul. Kościuszki 65","kod":"08-400","lat":51.90663,"lng":21.60544,"lvl":"adres"},{"m":"Garwolin","a":"ul. Mazowiecka 26","kod":"08-400","lat":51.89991,"lng":21.60514,"lvl":"adres"},{"m":"Garwolin","a":"ul. Korczaka 19","kod":"08-400","lat":51.90198,"lng":21.60465,"lvl":"adres"},{"m":"Garwolin","a":"ul. Staszica 8","kod":"08-400","lat":51.89741,"lng":21.61604,"lvl":"adres"},{"m":"Garwolin","a":"ul. Stacyjna 49","kod":"08-400","lat":51.89824,"lng":21.59212,"lvl":"adres"},{"m":"Łuków","a":"ul. Zbożowa 2","kod":"21-400","lat":51.92889,"lng":22.36022,"lvl":"adres"},{"m":"Łuków","a":"ul. Przemysłowa 15","kod":"21-400","lat":51.93792,"lng":22.38971,"lvl":"adres"},{"m":"Łuków","a":"ul. Kiernickich 15","kod":"21-400","lat":51.91777,"lng":22.37529,"lvl":"adres"},{"m":"Łuków","a":"ul. Rogalińskiego 8","kod":"21-400","lat":51.92479,"lng":22.37803,"lvl":"adres"},{"m":"Łuków","a":"ul. Dmocha 8","kod":"21-400","lat":51.93242,"lng":22.37906,"lvl":"adres"},{"m":"Łuków","a":"ul. Kanałowa 3A/1","kod":"21-400","lat":51.92846,"lng":22.385,"lvl":"adres"},{"m":"Łuków","a":"ul. Piłsudskiego 20","kod":"21-400","lat":51.93179,"lng":22.37869,"lvl":"adres"},{"m":"Stanin","a":"Stanin 21","kod":"","lat":51.87139,"lng":22.19769,"lvl":"miejscowosc"},{"m":"Mińsk Mazowiecki","a":"ul. Konstantego Rudzkiego 13","kod":"05-300","lat":52.17287,"lng":21.56316,"lvl":"adres"},{"m":"Trąbki","a":"Trąbki Huta","kod":"","lat":51.94658,"lng":21.61169,"lvl":"miejscowosc"},{"m":"Stoczek Łukowski","a":"","kod":"","lat":51.95679,"lng":21.96159,"lvl":"miejscowosc"},{"m":"Miastków Kościelny","a":"","kod":"","lat":51.884,"lng":21.8235,"lvl":"miejscowosc"},{"m":"Ryki","a":"ul. Poniatowskiego 37","kod":"08-500","lat":51.62657,"lng":21.9339,"lvl":"adres"},{"m":"Ryki","a":"ul. Karola Wojtyły 4","kod":"08-500","lat":51.62521,"lng":21.92998,"lvl":"adres"},{"m":"Międzyrzec Podlaski","a":"ul. Brzeska 33","kod":"21-560","lat":51.98672,"lng":22.78983,"lvl":"adres"},{"m":"Międzyrzec Podlaski","a":"ul. Staromiejska 20","kod":"21-560","lat":51.98542,"lng":22.78718,"lvl":"adres"},{"m":"Radzyń Podlaski","a":"ul. Ostrowiecka 7","kod":"21-300","lat":51.78283,"lng":22.61826,"lvl":"adres"},{"m":"Radzyń Podlaski","a":"Rynek 10","kod":"21-300","lat":51.78386,"lng":22.62079,"lvl":"adres"}];</script>
+<script src="app.js" defer></script>
+</body>
+</html>
